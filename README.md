@@ -1,8 +1,9 @@
-Defects created within dates
+Defects created between two dates
 =========================
 
 ## Overview
 
+![](pic.png)
 
 ## License
 
