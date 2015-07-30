@@ -15,6 +15,7 @@ Ext.define('CustomApp', {
 		xtype: 'rallydatepicker',
 		itemId: 'from',
 		minDate: minDate,
+                showToday: false,
 		handler: function(picker, date) {
 		     that._onStartDateSelected(date);
 		    }
@@ -23,6 +24,7 @@ Ext.define('CustomApp', {
 		xtype: 'rallydatepicker',
 		itemId: 'to',
 		minDate: minDate,
+                showToday: false,
 		handler: function(picker, date) {
 		     that._onEndDateSelected(date);
 		}
